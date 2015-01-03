@@ -50,6 +50,7 @@
             </intent-filter>
         </activity>
 
+<!--
         <service android:name="com.cyanogenmod.updater.service.UpdateCheckService" />
         <service android:name="com.cyanogenmod.updater.service.DownloadService" />
         <service android:name="com.cyanogenmod.updater.service.DownloadCompleteIntentService" />
@@ -66,6 +67,7 @@
                 <action android:name="com.cyanogenmod.cmupdater.action.START_DOWNLOAD"/>
             </intent-filter>
         </receiver>
+-->
 
         <receiver android:name="com.cyanogenmod.updater.receiver.NotificationClickReceiver">
             <intent-filter>
